@@ -3,17 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	s := []int{2, 3, 5, 7, 11, 13} // \
+	s := []int{}
 	printSlice(s)
+	for i := 0; i < 17; i++ {
+		s = append(s, i)
+		printSlice(s)
+	}
 
-	s = s[1:4] // 3,5,7
-	printSlice(s)
-
-	s = s[:2] // 3,5
-	printSlice(s)
-
-	s = s[1:] // 5, 7
-	printSlice(s)
 }
 
 func printSlice(s []int) {
