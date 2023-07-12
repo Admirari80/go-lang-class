@@ -12,5 +12,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Message that will be displayed on users' first issue"
-        pr-message: "Message that will be displayed on users' first pull request"
+        issue-message: "Thanks for creating issue, we'll look into it and update shortly"
+        pr-message: "Thanks For the PR, We'll review it and take appropriate actions"
