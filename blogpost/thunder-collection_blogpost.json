@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "blogpost",
+    "dateExported": "2023-07-12T15:14:36.932Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e10ffa63-0b33-4b1a-a8b4-60bcf886c37e",
+            "colId": "43274a66-9980-415d-8462-d06191b3dfd9",
+            "containerId": "",
+            "name": "http://localhost:9000/posts",
+            "url": "http://localhost:9000/posts",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-12T15:13:39.556Z",
+            "modified": "2023-07-12T15:13:39.556Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\":\"Code coverage for Go integration tests\",\n    \"Content\":\"Code coverage tools help developers determine what fraction of a source code base is executed (covered) when a given test suite is executed. Go has for some time provided support to measure code coverage at the package level, using the  flag of the go testcommand.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ac3ece86-0457-4684-86b1-151f2889559a",
+            "colId": "43274a66-9980-415d-8462-d06191b3dfd9",
+            "containerId": "",
+            "name": "http://localhost:9000/posts",
+            "url": "http://localhost:9000/posts",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-12T15:13:55.019Z",
+            "modified": "2023-07-12T15:13:55.019Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "24ceb3ff-49e2-487c-92ae-28d8147d8fbe",
+            "colId": "43274a66-9980-415d-8462-d06191b3dfd9",
+            "containerId": "",
+            "name": "http://localhost:9000/post/1",
+            "url": "http://localhost:9000/posts/10",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-07-12T15:14:05.685Z",
+            "modified": "2023-07-12T15:14:05.685Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f5869c67-b966-44a7-ad2b-51629fa81cac",
+            "colId": "43274a66-9980-415d-8462-d06191b3dfd9",
+            "containerId": "",
+            "name": "http://localhost:9000/posts/1",
+            "url": "http://localhost:9000/posts/3",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2023-07-12T15:14:12.800Z",
+            "modified": "2023-07-12T15:14:12.800Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\":\"Code coverage for Go integration tests oliver\",\n    \"Content\":\"Code coverage tools help developers determine what fraction of a source code base is executed (covered) when a given test suite is executed. Go has for some time provided support to measure code coverage at the package level, using the  flag of the go testcommand.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "adcc81d1-3e23-4041-934e-e134a480bc19",
+            "colId": "43274a66-9980-415d-8462-d06191b3dfd9",
+            "containerId": "",
+            "name": "http://localhost:9000/posts/1",
+            "url": "http://localhost:9000/posts/22",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-07-12T15:14:25.707Z",
+            "modified": "2023-07-12T15:14:25.707Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
